@@ -19,32 +19,51 @@
     <!-- ===== SECTION 1: Welcome ===== -->
     <section class="section welcome">
         <h1> My Dearest Wifeyy, Anuska 💜 </h1>
-        <p class="small-note">Every day with you feels like Valentine's Day.
-            But today, I want to make it extra special... </p>
+        <p class="small-note">
+            Every day with you feels like Valentine's Day.
+            But today, I want to make it extra special...
+        </p>
     </section>
 
     <!-- ===== SECTION 2: Love Note ===== -->
     <section class="section love-note">
-        <h3> 💜  A Little Love Note  💜 </h3>
-        <p class="viesti">From the moment you came into my life, everything changed for the better.
+        <h3> 💜  A Little Love Note 💜 For You </h3>
+        <p class="viesti">
+            From the moment you came into my life, everything changed for the better.
             Your smile lights up my world, and your laugh is my favorite song.
-            You are my everything. Today, tomorrow, and always. 💜💜💜 </p>
+            You are my everything. Today, tomorrow, and always. 💜💜💜
+        </p>
     </section>
 
     <!-- ===== SECTION 3: Question ===== -->
     <section class="section question-section">
-        <h2>Mero Mutuu, Will you be my Valentine?</h2>
-        <div class="buttons">
-            <button id="yesBtn">Yes 💘</button>
-            <button id="noBtn">No 😜</button>
+
+        <div id="questionBlock">
+            <h2>Mero Mutuu, Will you... be my Valentine?</h2>
+
+            <div class="buttons">
+                <button id="yesBtn">Yes 💘</button>
+                <button id="noBtn">No 😜</button>
+            </div>
+            <p id="response"></p>
         </div>
-        <p id="response"></p>
 
         <!-- Slideshow -->
         <div class="slideshow hidden">
             <img id="slideImage" src="photos/photo1.jpg" alt="Our memories ❤️">
             <p id="caption" class="caption"></p>
         </div>
+
+        <!-- Final Message (HIDDEN INITIALLY) -->
+        <div id="final-message" class="hidden">
+            <h2> 💜 I LOVE YOU 💜 </h2>
+        </div>
+
+        <!-- Bouquet -->
+        <div id="bouquet" class="bouquet hidden">
+            <img id="bouquetImg" src="images/rose-bouquet.png" alt="Bouquet of Roses 💐">
+        </div>
+
     </section>
 
     <script src="script.js"></script>
