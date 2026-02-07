@@ -277,8 +277,8 @@ button {
 
 
 /* ---------- MOBILE ---------- */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     button {
-        width: 100%;
+        width: 80%;
     }
 }
